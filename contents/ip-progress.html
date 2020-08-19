@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.14.1">
+  <meta name="generator" content="MarkBind 2.15.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TIC4001 - iP progress dashboard</title>
   <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -25,17 +25,17 @@
       <navbar type="dark" class="temp-navbar">
         <a slot="brand" href="https://nus-tic4001-ay2021s1.github.io/website" title="Home" class="navbar-brand"> <span class="badge badge-pill badge-warning }}"><span><span aria-hidden="true" class="fas fa-chevron-circle-left"></span></span> Go to TIC4001 main site</span></a>
         <li><a href="/dashboards/index.html" class="nav-link"><span>Dashboards home</span></a></li>
-
+        <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001"><a href="/dashboards/contents/participation.html" class="nav-link"><span><strong>Participation dashboard</strong></span></a></li>
 
         <div class="nav-link temp-dropdown-placeholder">**iP dashboards**</div>
-        <dropdown class="nav-link temp-dropdown"><template slot="_header"><strong>iP dashboards</strong></template>
+        <dropdown tags="m--cs2103 m--cs2113 m--tic4001" class="nav-link temp-dropdown"><template slot="_header"><strong>iP dashboards</strong></template>
           <li><a href="/dashboards/contents/ip-progress.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-tasks"></span> iP progress</span></a></li>
           <li><a href="/dashboards/contents/ip-comments.html" class="dropdown-item"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z" /></svg> iP comments</span></a></li>
+                  <path fill-rule="evenodd" d="M14 1H2c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h2v3.5L7.5 11H14c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm0 9H7l-2 2v-2H2V2h12v8z" /></svg> iP comments</span></a></li>
           <li><a href="https://nus-tic4001-ay2021s1.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code</span></a></li>
         </dropdown>
         <div class="nav-link temp-dropdown-placeholder">**tP dashboards**</div>
-        <dropdown class="nav-link temp-dropdown"><template slot="_header"><strong>tP dashboards</strong></template>
+        <dropdown tags="m--cs2103 m--cs2113 m--tic4001" class="nav-link temp-dropdown"><template slot="_header"><strong>tP dashboards</strong></template>
           <li><a href="/dashboards/contents/tp-progress.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-tasks"></span> tP progress</span></a></li>
           <li><a href="/dashboards/contents/tp-comments.html" class="dropdown-item"><span>tP comments</span></a></li>
           <li><a href="https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code</span></a></li>
@@ -58,7 +58,8 @@
                 <li><span class="badge badge-success">ABC</span> : you have done the corresponding item.</li>
                 <li><span class="badge badge-info">ABC</span> : you have done the corresponding item which is an optional item (well done!).</li>
                 <li><span class="badge badge-danger"><s>ABC</s></span> : you have not done the corresponding item yet.</li>
-                <li><span class="badge badge-secondary"><s>ABC</s></span> : item due soon, not done yet.</li>
+                <li><span class="badge badge-dark"><s>ABC</s></span> : item due soon, not done yet.</li>
+                <li><span class="badge badge-secondary"><s>ABC</s></span> : optional item due soon, not done yet.</li>
               </ul>
             </li>
             <li>If you have queries about the data shown in this page, please email <code v-pre>tic4001@comp.nus.edu.sg</code>.
@@ -67,7 +68,7 @@
         </box>
 
         <div>
-          <p><span class="dimmed">[This page was last updated on Mar 03 2020]</span></p>
+          <p><span class="dimmed">[This page was last updated on Aug 17 2020]</span></p>
           <div class="table-responsive">
             <table class="markbind-table table table-bordered table-striped">
               <thead>
@@ -78,10 +79,503 @@
                   <th><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-html-for="_content">i.e., other iP-related admin tasks</span>Admin tasks</span></th>
                 </tr>
               </thead>
-              <tbody></tbody>
+              <tbody>
+                <tr>
+                  <td>A0120420_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0120420" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0120420'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0137851_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0137851" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0137851'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0150565_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0150565" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0150565'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-success mr-1">2</span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-success mr-1">Forking</span></td>
+                </tr>
+                <tr>
+                  <td>A0177716_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177716" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177716'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-success mr-1">Forking</span></td>
+                </tr>
+                <tr>
+                  <td>A0177727_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177727" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177727'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177732_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177732" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177732'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177740_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177740" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177740'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177754_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177754" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177754'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177784_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177784" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177784'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177802_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177802" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177802'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-success mr-1">2</span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-success mr-1">Forking</span></td>
+                </tr>
+                <tr>
+                  <td>A0177807_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177807" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177807'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177809_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177809" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177809'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177810_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177810" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177810'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-success mr-1">Forking</span></td>
+                </tr>
+                <tr>
+                  <td>A0177820_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177820" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177820'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177968_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177968" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177968'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177971_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177971" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177971'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Forking</s></span></td>
+                </tr>
+                <tr>
+                  <td>A0177989_ <span class="dimmed"><span trigger="click" for="modal:ipPD-A0177989" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:ipPD-A0177989'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>2</s></span></td>
+                  <td><span class="badge badge-dark mr-1"><s>Level-0</s></span><span class="badge badge-dark mr-1"><s>Level-1</s></span><span class="badge badge-dark mr-1"><s>Level-2</s></span><span class="badge badge-dark mr-1"><s>Level-3</s></span></td>
+                  <td><span class="badge badge-success mr-1">Forking</span></td>
+                </tr>
+              </tbody>
             </table>
           </div>
-          <p><span class="dimmed">[No data yet]</span></p>
+          <b-modal id="modal:ipPD-A0120420" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0120420"><template slot="modal-title">A0120420_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments">iP Increments<a class="fa fa-anchor" href="#ip-increments" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0137851" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0137851"><template slot="modal-title">A0137851_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-2">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-2" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-2">iP Increments<a class="fa fa-anchor" href="#ip-increments-2" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-2">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-2" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0150565" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0150565"><template slot="modal-title">A0150565_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-3">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-3" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-success mr-1">2</span></strong> [Aug 14 2020 - Aug 27 2020]: Pushed <strong><code v-pre>4</code> commits</strong></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-3">iP Increments<a class="fa fa-anchor" href="#ip-increments-3" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-3">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-3" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-success mr-1">Forking</span>: <strong>Forked?</strong> Yes. <strong>Issue tracker enabled?</strong> Yes</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177716" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177716"><template slot="modal-title">A0177716_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-4">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-4" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-4">iP Increments<a class="fa fa-anchor" href="#ip-increments-4" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-4">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-4" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-success mr-1">Forking</span>: <strong>Forked?</strong> Yes. <strong>Issue tracker enabled?</strong> Yes</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177727" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177727"><template slot="modal-title">A0177727_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-5">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-5" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-5">iP Increments<a class="fa fa-anchor" href="#ip-increments-5" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-5">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-5" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177732" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177732"><template slot="modal-title">A0177732_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-6">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-6" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-6">iP Increments<a class="fa fa-anchor" href="#ip-increments-6" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-6">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-6" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177740" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177740"><template slot="modal-title">A0177740_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-7">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-7" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-7">iP Increments<a class="fa fa-anchor" href="#ip-increments-7" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-7">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-7" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177754" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177754"><template slot="modal-title">A0177754_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-8">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-8" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-8">iP Increments<a class="fa fa-anchor" href="#ip-increments-8" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-8">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-8" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177784" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177784"><template slot="modal-title">A0177784_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-9">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-9" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-9">iP Increments<a class="fa fa-anchor" href="#ip-increments-9" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-9">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-9" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177802" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177802"><template slot="modal-title">A0177802_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-10">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-10" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-success mr-1">2</span></strong> [Aug 14 2020 - Aug 27 2020]: Pushed <strong><code v-pre>1</code> commit</strong></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-10">iP Increments<a class="fa fa-anchor" href="#ip-increments-10" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-10">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-10" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-success mr-1">Forking</span>: <strong>Forked?</strong> Yes. <strong>Issue tracker enabled?</strong> Yes</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177807" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177807"><template slot="modal-title">A0177807_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-11">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-11" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-11">iP Increments<a class="fa fa-anchor" href="#ip-increments-11" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-11">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-11" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177809" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177809"><template slot="modal-title">A0177809_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-12">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-12" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-12">iP Increments<a class="fa fa-anchor" href="#ip-increments-12" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-12">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-12" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177810" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177810"><template slot="modal-title">A0177810_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-13">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-13" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-13">iP Increments<a class="fa fa-anchor" href="#ip-increments-13" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-13">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-13" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-success mr-1">Forking</span>: <strong>Forked?</strong> Yes. <strong>Issue tracker enabled?</strong> Yes</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177820" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177820"><template slot="modal-title">A0177820_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-14">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-14" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-14">iP Increments<a class="fa fa-anchor" href="#ip-increments-14" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-14">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-14" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177968" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177968"><template slot="modal-title">A0177968_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-15">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-15" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-15">iP Increments<a class="fa fa-anchor" href="#ip-increments-15" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-15">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-15" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177971" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177971"><template slot="modal-title">A0177971_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-16">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-16" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-16">iP Increments<a class="fa fa-anchor" href="#ip-increments-16" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-16">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-16" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Forking</s></span>: <strong>Forked?</strong> No. <strong>Issue tracker enabled?</strong> No</li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:ipPD-A0177989" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipPD-A0177989"><template slot="modal-title">A0177989_: iP Progress Details</template>
+            <h4 id="ip-weekly-progress-17">iP Weekly Progress<a class="fa fa-anchor" href="#ip-weekly-progress-17" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><strong>Week <span class="badge badge-dark mr-1"><s>2</s></span></strong> [Aug 14 2020 - Aug 27 2020]: Did not push any commits <span aria-hidden="true" class="far fa-frown"></span></li>
+              </ul>
+            </div>
+            <h4 id="ip-increments-17">iP Increments<a class="fa fa-anchor" href="#ip-increments-17" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-dark mr-1"><s>Level-0</s></span>: [Due in Week 2]: Tag <code v-pre>Level-0</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-1</s></span>: [Due in Week 2]: Tag <code v-pre>Level-1</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-2</s></span>: [Due in Week 2]: Tag <code v-pre>Level-2</code> not found in the fork</li>
+                <li><span class="badge badge-dark mr-1"><s>Level-3</s></span>: [Due in Week 2]: Tag <code v-pre>Level-3</code> not found in the fork</li>
+              </ul>
+            </div>
+            <h4 id="ip-admin-tasks-17">iP Admin Tasks<a class="fa fa-anchor" href="#ip-admin-tasks-17" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <ul>
+                <li><span class="badge badge-success mr-1">Forking</span>: <strong>Forked?</strong> Yes. <strong>Issue tracker enabled?</strong> Yes</li>
+              </ul>
+            </div>
+          </b-modal>
         </div>
       </div>
 
@@ -89,7 +583,7 @@
     <footer>
 
       <div class="text-center">
-        <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.14.1</a>, generated on Wed, 22 Jul 2020, 16:14:39 UTC]</small></div>
+        <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Wed, 19 Aug 2020, 14:26:48 UTC]</small></div>
     </footer>
   </div>
 </body>
