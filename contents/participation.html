@@ -31,7 +31,8 @@
         <dropdown tags="m--cs2103 m--cs2113 m--tic4001" class="nav-link temp-dropdown"><template slot="_header"><strong>iP dashboards</strong></template>
           <li><a href="/dashboards/contents/ip-progress.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-tasks"></span> iP progress</span></a></li>
           <li><a href="/dashboards/contents/ip-comments.html" class="dropdown-item"><span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-comment" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M14 1H2c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h2v3.5L7.5 11H14c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm0 9H7l-2 2v-2H2V2h12v8z" /></svg> iP comments</span></a></li>
+                  <path fill-rule="evenodd" d="M14 1H2c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h2v3.5L7.5 11H14c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm0 9H7l-2 2v-2H2V2h12v8z" />
+                </svg> iP comments</span></a></li>
           <li><a href="https://nus-tic4001-ay2021s1.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code</span></a></li>
         </dropdown>
         <div class="nav-link temp-dropdown-placeholder">**tP dashboards**</div>
@@ -54,7 +55,8 @@
               <ul>
                 <li><span class="dimmed"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span> : you can click on this icon to find more info</li>
                 <li><span class="badge badge-success">N</span> : you reached the participation bar for week <code v-pre>N</code></li>
-                <li><span class="badge badge-danger"><s>N</s></span> : you did not reach the participation bar for week <code v-pre>N</code></li>
+                <li><span class="badge badge-warning"><s>N</s></span> : you earned <em>some</em> participation points in the week <code v-pre>N</code> but fell short of the participation bar for that week (these <em>tried-but-fell-short</em> weeks are not normally counted for participation, but they could be given <em>some</em> consideration if you failed to earn full participation marks at the end)</li>
+                <li><span class="badge badge-danger"><s>N</s></span> : you did not earn <em>any</em> participation points for week <code v-pre>N</code></li>
               </ul>
             </li>
             <li>If you have queries about the participation marks, please email <code v-pre>tic4001@comp.nus.edu.sg</code>.
@@ -63,7 +65,7 @@
         </box>
 
         <div>
-          <p><span class="dimmed">[This page was last updated on Sep 11 2020]</span></p>
+          <p><span class="dimmed">[This page was last updated on Sep 16 2020]</span></p>
           <div class="table-responsive">
             <table class="markbind-table table table-bordered table-striped">
               <thead>
@@ -75,7 +77,7 @@
               <tbody>
                 <tr>
                   <td>A0120420_ <span class="dimmed"><span trigger="click" for="modal:pD-A0120420" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0120420'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
-                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-danger mr-1"><s>2</s></span><span class="badge badge-danger mr-1"><s>3</s></span><span class="badge badge-danger mr-1"><s>4</s></span> → <strong>1</strong></td>
+                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-danger mr-1"><s>2</s></span><span class="badge badge-warning mr-1"><s>3</s></span><span class="badge badge-danger mr-1"><s>4</s></span> → <strong>1</strong></td>
                 </tr>
                 <tr>
                   <td>A0137851_ <span class="dimmed"><span trigger="click" for="modal:pD-A0137851" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0137851'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
@@ -91,7 +93,7 @@
                 </tr>
                 <tr>
                   <td>A0177727_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177727" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177727'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
-                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-danger mr-1"><s>3</s></span><span class="badge badge-danger mr-1"><s>4</s></span> → <strong>2</strong></td>
+                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1"><s>3</s></span><span class="badge badge-warning mr-1"><s>4</s></span> → <strong>2</strong></td>
                 </tr>
                 <tr>
                   <td>A0177732_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177732" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177732'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
@@ -103,7 +105,7 @@
                 </tr>
                 <tr>
                   <td>A0177754_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177754" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177754'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
-                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-danger mr-1"><s>3</s></span><span class="badge badge-success mr-1">4</span> → <strong>3</strong></td>
+                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1"><s>3</s></span><span class="badge badge-success mr-1">4</span> → <strong>3</strong></td>
                 </tr>
                 <tr>
                   <td>A0177784_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177784" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177784'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
@@ -119,7 +121,7 @@
                 </tr>
                 <tr>
                   <td>A0177809_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177809" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177809'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
-                  <td><span class="badge badge-danger mr-1"><s>1</s></span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1"><s>4</s></span> → <strong>2</strong></td>
+                  <td><span class="badge badge-danger mr-1"><s>1</s></span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-warning mr-1"><s>4</s></span> → <strong>2</strong></td>
                 </tr>
                 <tr>
                   <td>A0177810_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177810" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177810'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
@@ -127,7 +129,7 @@
                 </tr>
                 <tr>
                   <td>A0177820_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177820" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177820'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
-                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-danger mr-1"><s>3</s></span><span class="badge badge-danger mr-1"><s>4</s></span> → <strong>2</strong></td>
+                  <td><span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1"><s>3</s></span><span class="badge badge-warning mr-1"><s>4</s></span> → <strong>2</strong></td>
                 </tr>
                 <tr>
                   <td>A0177968_ <span class="dimmed"><span trigger="click" for="modal:pD-A0177968" v-b-popover.click.top.html="popoverGenerator" v-b-tooltip.click.top.html="tooltipContentGetter" v-on:click="$refs['modal:pD-A0177968'].show()" class="trigger-click"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></span></span></td>
@@ -151,17 +153,17 @@
               <ul>
                 <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
               </ul>
-              <h5 id="week-2-1-3-points">Week <span class="badge badge-danger mr-1"><s>2</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-2-1-3-points" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-2-0-3-points">Week <span class="badge badge-danger mr-1"><s>2</s></span>: <small>0/3 points</small><a class="fa fa-anchor" href="#week-2-0-3-points" onclick="event.stopPropagation()"></a></h5>
               <ul>
-                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(1/3 points)</span></li>
+                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(0/3 points)</span></li>
               </ul>
-              <h5 id="week-3-1-3-points">Week <span class="badge badge-danger mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-3-1-3-points">Week <span class="badge badge-warning mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>48%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
-              <h5 id="week-4-1-3-points">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-4-0-3-points">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>0/3 points</small><a class="fa fa-anchor" href="#week-4-0-3-points" onclick="event.stopPropagation()"></a></h5>
               <ul>
-                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(1/3 points)</span></li>
+                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(0/3 points)</span></li>
               </ul>
             </div>
           </b-modal>
@@ -180,9 +182,9 @@
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>70%</code> <span class="dimmed">(2/3 points)</span></li>
               </ul>
-              <h5 id="week-4-1-3-points-2">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-2" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-4-0-3-points-2">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>0/3 points</small><a class="fa fa-anchor" href="#week-4-0-3-points-2" onclick="event.stopPropagation()"></a></h5>
               <ul>
-                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(1/3 points)</span></li>
+                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(0/3 points)</span></li>
               </ul>
             </div>
           </b-modal>
@@ -239,11 +241,11 @@
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>70%</code> <span class="dimmed">(3/3 points)</span></li>
               </ul>
-              <h5 id="week-3-1-3-points-2">Week <span class="badge badge-danger mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points-2" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-3-1-3-points-2">Week <span class="badge badge-warning mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points-2" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>42%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
-              <h5 id="week-4-1-3-points-3">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-3" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-4-1-3-points">Week <span class="badge badge-warning mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>56%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
@@ -302,7 +304,7 @@
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>50%</code> <span class="dimmed">(2/3 points)</span></li>
               </ul>
-              <h5 id="week-3-1-3-points-3">Week <span class="badge badge-danger mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points-3" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-3-1-3-points-3">Week <span class="badge badge-warning mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points-3" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>67%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
@@ -369,9 +371,9 @@
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>70%</code> <span class="dimmed">(2/3 points)</span></li>
               </ul>
-              <h5 id="week-4-1-3-points-4">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-4" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-4-0-3-points-3">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>0/3 points</small><a class="fa fa-anchor" href="#week-4-0-3-points-3" onclick="event.stopPropagation()"></a></h5>
               <ul>
-                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(1/3 points)</span></li>
+                <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>0%</code> <span class="dimmed">(0/3 points)</span></li>
               </ul>
             </div>
           </b-modal>
@@ -390,7 +392,7 @@
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>82%</code> <span class="dimmed">(3/3 points)</span></li>
               </ul>
-              <h5 id="week-4-1-3-points-5">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-5" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-4-1-3-points-2">Week <span class="badge badge-warning mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-2" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>61%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
@@ -428,11 +430,11 @@
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>80%</code> <span class="dimmed">(2/3 points)</span></li>
               </ul>
-              <h5 id="week-3-1-3-points-4">Week <span class="badge badge-danger mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points-4" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-3-1-3-points-4">Week <span class="badge badge-warning mr-1"><s>3</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-3-1-3-points-4" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>39%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
-              <h5 id="week-4-1-3-points-6">Week <span class="badge badge-danger mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-6" onclick="event.stopPropagation()"></a></h5>
+              <h5 id="week-4-1-3-points-3">Week <span class="badge badge-warning mr-1"><s>4</s></span>: <small>1/3 points</small><a class="fa fa-anchor" href="#week-4-1-3-points-3" onclick="event.stopPropagation()"></a></h5>
               <ul>
                 <li><strong>Quiz(zes)</strong>: percentage of correct answers: <code v-pre>61%</code> <span class="dimmed">(1/3 points)</span></li>
               </ul>
@@ -508,7 +510,8 @@
     <footer>
 
       <div class="text-center">
-        <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Mon, 14 Sep 2020, 11:38:35 GMT+8]</small></div>
+        <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.15.2</a>, generated on Thu, 17 Sep 2020, 10:22:36 GMT+8]</small>
+      </div>
     </footer>
   </div>
 </body>
