@@ -1,0 +1,408 @@
+%%[This page was last updated on Oct 02 2020]%%
+
+
+<panel type="info" header="### 1. WIRA AZMOON AHMAD `@hughjazzman` (9 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/12#discussion_r497241075" expanded>
+
+'''suggestion
+    public Resistor(double value) {
+'''
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/12#discussion_r497241998" expanded>
+
+'''suggestion
+
+    /** 
+     * Returns String representation of Resistor.
+     *
+     * @return String with value and SI unit of Resistor. 
+     */
+'''
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/12#discussion_r497242058" expanded>
+
+'''suggestion
+    public String toString() {
+'''
+</panel>
+
+<panel  header="**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/13#discussion_r497263060" expanded>
+
+Great photo! 
+</panel>
+
+<panel  header="**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/17#discussion_r497975588" expanded>
+
+Nice work!
+</panel>
+
+<panel  header="**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/19#discussion_r497996355" expanded>
+
+If you look in the build error, it says ''METHOD_DEF' should be separated from previous statement. [EmptyLineSeparator]'. So just have to add an empty line.
+'''suggestion
+
+    /**
+'''
+</panel>
+
+<panel  header="**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/19#discussion_r498070327" expanded>
+
+Consider correcting the 'SI_UNIT'?
+'''suggestion
+    private static final String SI_UNIT = "Ω";
+'''
+</panel>
+
+<panel  header="**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/20#discussion_r498720102" expanded>
+
+Need to extend the super class.
+
+'''
+public class PowerSource extends Component {
+'''
+</panel>
+
+<panel  header="**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/21#discussion_r498798331" expanded>
+
+The JavaDoc should be with its method.
+'''suggestion
+
+    /**
+     * Returns String constituting value and unit of voltage source of circuit.
+     *
+     * @return String representation of VoltageSource object.
+     */
+'''
+</panel>
+
+<panel  header="**10 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/11#issuecomment-700819950" expanded>
+
+#10 Inductor done.
+</panel>
+
+<panel  header="**11 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/11#issuecomment-701156398" expanded>
+
+No need to link the issue #10 yet, else it will automatically close it when you merge. Can link when the last component is done.
+</panel>
+
+<panel  header="**12 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/12#issuecomment-701902136" expanded>
+
+Closed as duplicate of #19.
+</panel>
+
+<panel  header="**13 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#issuecomment-701959015" expanded>
+
+You don't need to close the PR and make a new one once you've made the changes. But it's okay, now that you've opened #19 we'll use that.
+</panel>
+
+<panel  header="**14 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/issues/10#issuecomment-702721155" expanded>
+
+* Inductor done in #11 
+* Capacitor done in #16 
+* Resistor done in #19 
+* Voltage Source done in #21 
+
+I think we can merge all and close this issue?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 2. VISHRUTI RANJAN `@sevenseasofbri` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/9#discussion_r495895459" expanded>
+
+Consider removing this.
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#discussion_r497988119" expanded>
+
+`public String toString() {`
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#discussion_r497988694" expanded>
+
+`public Resistor(double value) {`
+</panel>
+
+<panel  header="**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#discussion_r497988853" expanded>
+
+Consider changing this to Resistor object
+</panel>
+
+<panel  header="**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/20#discussion_r498683583" expanded>
+
+'''suggestion
+package seedu.duke.component;
+
+public class PowerSource {
+    private static final String SI_UNIT = "V";
+
+    public PowerSource(double value) {
+        super(value);
+    }
+
+    /**
+     * Returns the value and unit of PowerSource object.
+     *
+     * @return String of Power Source value
+     */
+    @Override
+    public String toString() {
+        return (value) + SI_UNIT;
+    }
+}
+'''
+</panel>
+
+<panel  header="**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/20#discussion_r498683988" expanded>
+
+The lack of a newline is causing checkStyle error
+</panel>
+
+<panel  header="**7 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/11#issuecomment-700820575" expanded>
+
+> Perhaps JavaDoc to be added, but other than that LGTM.
+
+Ohh right I forgot. I'll do it.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 3. KINGSTON KUAN JUN XIANG `@kstonekuan` (2 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/3#discussion_r498620172" expanded>
+
+LGTM, well done!
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/3#discussion_r498620227" expanded>
+
+Thanks for helping me to remove this, forget to do it on my side!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 4. DORIAN ALEXANDER FONG `@dorianfong98` (2 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/9#discussion_r495892651" expanded>
+
+Good description.
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/9#discussion_r495897497" expanded>
+
+Perhaps it's time for a new ASCII name art? :)
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 5. VISHESH P ARORA `@wish2023` (2 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W12-2/tp/pull/7#discussion_r498192939" expanded>
+
+Nice job on creating the package early
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W12-2/tp/pull/7#discussion_r498193153" expanded>
+
+Yup we don't need this anymore!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 6. DANIEL LIM WEE SOONG `@daniellimws` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-W12-2/tp/pull/6#discussion_r497240817" expanded>
+
+Who dis
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W12-2/tp/pull/2#issuecomment-702034671" expanded>
+
+Done in #4 
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W12-2/tp/pull/3#issuecomment-702034794" expanded>
+
+Done in #4
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W12-2/tp/pull/6#issuecomment-702034962" expanded>
+
+Done in #4 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 7. JOSEPH ABRAHAM `@josephhhhhhhhh` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/1#discussion_r498617682" expanded>
+
+good job!
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/1#issuecomment-702524034" expanded>
+
+Overall, well done changing your name.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 8. TANG ZHI YOU `@Zhi-You` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/4#discussion_r498624885" expanded>
+
+Great job!
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/4#issuecomment-702535107" expanded>
+
+LGTM! Good job overall!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 9. LIM AN QI `@anqi20` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/5#discussion_r498654793" expanded>
+
+Good Job!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. JOEL NG YI XIAN `@joelngyx` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-CS2113T-F12-3/tp/pull/2#discussion_r498618863" expanded>
+
+Good job!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 11. CHAN JIAN XIANG `@scjx123` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113-T13-2/tp/pull/3#issuecomment-698108015" expanded>
+
+Add read courselist feature
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 12. JOHANES RAFAEL SUDARDJI `@johanesrafael` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113-T13-2/tp/pull/4#issuecomment-700394916" expanded>
+
+needs to resolve conflict . Otherwise, it can not be merged.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 13. LI BOZHAO `@TomLBZ` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113-T13-2/tp/pull/4#issuecomment-700559355" expanded>
+
+> needs to resolve conflict . Otherwise, it can not be merged.
+
+My "Resolve conflicts" button is still greyed out...
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 14. CHEN JIQING `@judowha` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W12-3/tp/pull/2#issuecomment-701158474" expanded>
+
+good job
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 15. ELANGO PRAVEEN `@PraveenElango` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#discussion_r497990790" expanded>
+
+Thank you for pointing out!
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#discussion_r497990795" expanded>
+
+Thank you for pointing out!
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#discussion_r497990800" expanded>
+
+Thank you for pointing out!
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W13-3/tp/pull/18#issuecomment-701970083" expanded>
+
+@hughjazzman Got it, thanks for the help!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 16. SEAN LIM ZHI XIANG `@Aseanseen` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-T09-2/tp/pull/12#issuecomment-702233830" expanded>
+
+I think the commented code can be removed. But otherwise, looks good to merge.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 17. FELIX HALIM `@felixhalim` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W11-2/tp/issues/1#issuecomment-696160718" expanded>
+
+This is just a test
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 18. ZHOU SHIKAI `@shikai-zhou` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-CS2113T-W12-3/tp/pull/1#issuecomment-701155969" expanded>
+
+Great job
+</panel>
+
+</panel>
