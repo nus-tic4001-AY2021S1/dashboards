@@ -1,4 +1,4 @@
-%%[This page was last updated on Oct 02 2020]%% [**<span class="text-warning">:octicon-eye:</span> indicates those _watching_ the forum** (kudos :+1:)]
+%%[This page was last updated on Oct 07 2020]%% [**<span class="text-warning">:octicon-eye:</span> indicates those _watching_ the forum** (kudos :+1:)]
 
 
 <panel type="info" header="### 1. WANG.. QIN `@wangqinNick` (29 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
@@ -254,7 +254,7 @@ Thanks for the explanation!
 </panel>
 
 
-<panel type="info" header="### 2. NEIL..RJEE `@neilbaner` (28 posts) "  collapsed>
+<panel type="info" header="### 2. NEIL..RJEE `@neilbaner` (29 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: How to add resources to your Java project💡**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/73" expanded>
@@ -477,6 +477,15 @@ Ah yes, very useful for those of us who won't be lucky enough to win the weekly 
 <panel  header="**28 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/74#issuecomment-702621083" expanded>
 
 It does this for me too intermittently, and it seems to go away by itself after a while or when I restart IntelliJ. For a program whose name is derived from "intelligent", it can be quite dense at times...
+</panel>
+
+<panel  header="**29 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-704917483" expanded>
+
+> A possible issue is that your Manifest may have been edited/not included in the JAR. So try to rebuild the JAR.
+
+> Some leads here: https://stackoverflow.com/questions/7559072/corrupt-jar-file
+
+Chiming in to say that I faced this same issue and this was indeed the problem. For me it was because I was working on the project across multiple computers, and the default .gitignore didn't push the manifest, and somehow somewhere along the line it got deleted.  
 </panel>
 
 </panel>
@@ -703,7 +712,7 @@ Try tips in #61, was also asked in #65.
 </panel>
 
 
-<panel type="info" header="### 4. TEOH..IANG `@zhixiangteoh` (16 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 4. TEOH..IANG `@zhixiangteoh` (17 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/1#issuecomment-671171147" expanded>
@@ -859,10 +868,17 @@ See also: https://stackoverflow.com/questions/24190085/markdown-multiline-code-b
 It's not specified so I personally assumed it's up to the individual's discretion: my tp mate implemented error-checking to only allow the strict date formatting but I personally coded it such that if you get the right format (i.e. YYYYMMDD) the program converts it, otherwise it just uses whatever the user entered (e.g. in 10min). Either way, include it in your user guide!
 </panel>
 
+<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64#issuecomment-703159618" expanded>
+
+FWIW:
+
+[Hacktoberfest now requires PRs be in a repo with hacktoberfest topic and be accepted](https://www.reddit.com/r/programming/comments/j459hr/hacktoberfest_now_requires_prs_be_in_a_repo_with/?utm_source=share&utm_medium=ios_app&utm_name=iossmf): [PR](https://github.com/digitalocean/hacktoberfest/pull/596)
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 5. ADI ..NATA `@adinata15` (15 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 5. ADI ..NATA `@adinata15` (16 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Team Project Workflow and Grading**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/75" expanded>
@@ -1043,10 +1059,15 @@ Thank you for the help @okkhoy ! I have deleted the old tag and pushed a new tag
 Thank you for the clarification! @okkhoy @felixhalim @zhixiangteoh 
 </panel>
 
+<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/75#issuecomment-703191168" expanded>
+
+Thank you for the advice! @okkhoy. I will leave this open for future questions.
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 6. HENG..YUEN `@HengFuYuen` (12 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 6. HENG..YUEN `@HengFuYuen` (13 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Table formatting for User Guide**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/65" expanded>
@@ -1143,20 +1164,40 @@ I see! Thanks @zhixiangteoh and @okkhoy !
 Oh! Thanks so much for the tips!
 </panel>
 
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-704924011" expanded>
+
+Hi! Sorry, may I know where did your get this error message? Was it via email? Because I actually didn't push my manifest files to my repo but when I checked, it seems to be included in my JAR file (?). So I'm worried that I might have the same error but don't know where to check to see if my JAR passed the smoke test.  Also, do I need to push my manifest.mf file? Thank you!
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 7. KING..IANG `@kstonekuan` (10 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 7. KING..IANG `@kstonekuan` (11 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: 💡 Hacktoberfest 2020**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64" expanded>
+<panel  header="**1. :fas-info-circle: Requesting Permission to use JSON.simple**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/79" expanded>
+
+## Library
+
+[JSON.simple](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple)
+
+## Purpose
+
+Parsing json files which stores our data
+
+## License
+
+Apache 2.0
+</panel>
+
+<panel  header="**2. :fas-info-circle: 💡 Hacktoberfest 2020**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64" expanded>
 
 Since we make many pull requests for this module, you might as well join Hacktoberfest this year if you haven't already. You can gain good exposure to the open source community and get a free t-shirt at the same time. All you need to do is complete 4 pull requests to any public repository during the event period to be eligible.
 
 https://hacktoberfest.digitalocean.com/
 </panel>
 
-<panel  header="**2. :fas-info-circle: Status icons not showing when using JAR file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47" expanded>
+<panel  header="**3. :fas-info-circle: Status icons not showing when using JAR file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47" expanded>
 
 My status icons show "?" instead of the ticks and crosses when I run from my JAR file although they can be saved fine in my duke.txt.
 
@@ -1165,12 +1206,12 @@ My status icons show "?" instead of the ticks and crosses when I run from my JAR
 ![image](https://user-images.githubusercontent.com/35717847/93014876-427d9b80-f5e7-11ea-96be-1791903ad7ad.png)
 </panel>
 
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654025" expanded>
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654025" expanded>
 
 I have tried this before and it is already active
 </panel>
 
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654525" expanded>
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654525" expanded>
 
 I get this error.
 
@@ -1178,12 +1219,12 @@ I get this error.
 
 </panel>
 
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691657405" expanded>
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691657405" expanded>
 
 Oh the command doesn't work in powershell but it works in cmd, however, the icons still show as question marks
 </panel>
 
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691658616" expanded>
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691658616" expanded>
 
 > > Oh the command doesn't work in powershell but it works in cmd, however, the icons still show as question marks
 > 
@@ -1195,24 +1236,24 @@ Yea I tried this as well
 
 </panel>
 
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691682955" expanded>
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691682955" expanded>
 
 > Maybe because your terminal is using a font that doesn't support this character? Try changing to a different font? Or maybe one from [here](https://github.com/powerline/fonts)? I hope this works
 
 Changing the font to NSimSun on cmd works, thank you @daniellimws, @wangqinNick and @daniellimzj ! 
 </panel>
 
-<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56#issuecomment-693538365" expanded>
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56#issuecomment-693538365" expanded>
 
 I think it means you have multiple versions of Java installed and your command prompt defaults to an older version of Java Runtime than what your IDE used to compile, maybe you can check your installations? We should be using Java 11 for this module
 </panel>
 
-<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/60#issuecomment-695755610" expanded>
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/60#issuecomment-695755610" expanded>
 
 If your gif files are only for the README I think you can place them in the docs folder as that should not be compiled. You can then use relative paths in your README such as `![Alt Text](./gifs/one.gif)`
 </panel>
 
-<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/68#issuecomment-700606581" expanded>
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/68#issuecomment-700606581" expanded>
 
 I think you can refer to #30 
 </panel>
@@ -1766,150 +1807,7 @@ This problem has been occuring forever. The only way to pass is to print nothing
 </panel>
 
 
-<panel type="info" header="### 20. DANI..-JIE `@daniellimzj` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: For the increment A-MoreOOP, why do we use instances of classes instead of static methods?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59" expanded>
-
-Hi,
-
-I don't really understand about why the example code for the increment A-MoreOOP initialises instances of classes instead of just using static methods.
-
-For example, it initialises a instance `ui` of class `Ui` to print things, but couldn't we achieve the functionality of printing things with static methods?
-
-Would like to know if there's any benefits of using instances of classes instead of static methods in these cases that I'm missing.
-Thank you!
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691679828" expanded>
-
-I seem to have the same issues. Running the command with the -Dfile.encoding=UTF-8 parameter just changes my output from a regular question mark "?" to the same symbol that @kstonekuan sees.
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59#issuecomment-695753370" expanded>
-
-> I think in terms of member functions: if a method do not invoke any non-static variables, the method should be static.
-
-I also thought this way, that's why I was a bit confused why the example code used non-static methods even though I don't see how the methods for those classes could invoke non-static variables.
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59#issuecomment-695791630" expanded>
-
-Hi Prof,
-Okay! Thank you for the clarifications.
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 21. LIM ..BING `@farice9` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Did not fulfill participation requirement on Week 2/3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26" expanded>
-
-Hey! I don't understand why I did not get the participation mark for Week 2/3 despite attending lecture and answered the in-lecture questions (the one hosted on pollev), finished the repl.it questions & ip progress before tutorial.
-
-I would appreciate it if I can understand why this happened so that I can avoid the same mistake in the future. Thanks!
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/1#issuecomment-671157439" expanded>
-
-Hi! I noticed that the link to repl.it "cs2113-2020 Aug-Dec" classroom is not attached under https://nus-cs2113-ay2021s1.github.io/website/schedule/week1/admin.html > "Tools - repl.it"
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304572" expanded>
-
-I see, thanks for the reply. I opened up and noticed that my "First Name" on repl.it was my real name instead of GitHub name. I hadn't considered that an issue as my repl.it username was the same as github.
-
-![image](https://user-images.githubusercontent.com/56571027/91640211-602afc80-ea4e-11ea-8ab4-f2157027acb0.png)
-
-I've changed the "First Name" to the GitHub name afterward.
-
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683306192" expanded>
-
-Thanks @tobiasceg for pointing out and @okkhoy for verifying the issue. Really appreciate it!
-
-I'll keep this issue open, hopefully affected people will notice this.
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 22. NEO .. ERN `@neojiaern` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Undo fast foward merge**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50" expanded>
-
-Hi, I was merging branch-Level-6 to master branch but did not check the "Create a new commit even if fast forward is possible". It resulted in something like this:
-![image](https://user-images.githubusercontent.com/37478363/93120936-ad69c800-f6f6-11ea-89be-e2a3dfa6ee6e.png)
-
-Then I did a **git reset --keep branch-Level-6@{1}** but was unable to revert back to the previous state before merging as the branch-Level-6 returned to the 2nd last commit in branch-Level-6 and master stayed at my last commit of branch-Level-6. So I merged master back into branch-Level-6 which went back into the situation shown in the picture above.  I was unable to revert the merge after that.
-
-How do I move master back to origin/master? Would it be safe to checkout origin/master and reset master branch there? Or may I know if there is any other solution to this? 
-
-</panel>
-
-<panel  header="**2. :fas-info-circle: iP: Level-0**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5" expanded>
-
-Hi Prof, regarding Level-0 of the iP, the task states that we should commit after making changes, for this increment are we supposed to push the changes to the fork on github after committing? In addition, are we supposed to keep the DUKE logo that shows at the start?
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5#issuecomment-674406397" expanded>
-
-Noted, thank you prof
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50#issuecomment-692439695" expanded>
-
-Thank you! It is working now. 
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 23. TAN ..ELIA `@AmeliaTYR` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41" expanded>
-
-Hi sorry I pushed branch-Level-5 two days ago (8sep) and it says the ip progress dashboard updated yesterday (9sep) but it still says it doesn't detect the branch-Level-5.  
-
-![image](https://user-images.githubusercontent.com/53657436/92683529-b3ae1c00-f365-11ea-9b4d-7fdcf71ac6f1.png)
-![image](https://user-images.githubusercontent.com/53657436/92683682-1bfcfd80-f366-11ea-850b-a6e6fe4a1118.png)
-
-did I do something wrongly? 
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690097107" expanded>
-
-I merged the branch that it was merged to to the master is that ok?
-![image](https://user-images.githubusercontent.com/53657436/92706420-119f2b80-f387-11ea-91f3-e2c1ffb424f7.png)
-Or how do I undo the merging mess I made?
-
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690138541" expanded>
-
-I reverted it to branch-Level-5 and then merged it to master so now it's like this:
-
-![image](https://user-images.githubusercontent.com/53657436/92716900-043b6e80-f392-11ea-8f05-cbed905ed039.png)
-
-master now has the latest version of the code 
-
-is this acceptable? (also do i need to undo all of the other merge stuff I did or can I just leave it? I'm afraid I might accidentally delete something important?)
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690896569" expanded>
-
-Thank you @okkhoy and @ChanJianHao for your help!
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 24. TANG..TING `@t170815518` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 20. TANG..TING `@t170815518` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Repl.it Error: Note: Recompile with -Xlint:unchecked for details.**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18" expanded>
@@ -1977,10 +1875,179 @@ Same issue. Thank you for pointing out it. Appreciate all the replies here.
 I've just changed my repl's first name too. 
 </panel>
 
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-703110470" expanded>
+
+Same issue here 
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 25. RIAZ..AMED `@riazaham` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 21. DANI..-JIE `@daniellimzj` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: For the increment A-MoreOOP, why do we use instances of classes instead of static methods?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59" expanded>
+
+Hi,
+
+I don't really understand about why the example code for the increment A-MoreOOP initialises instances of classes instead of just using static methods.
+
+For example, it initialises a instance `ui` of class `Ui` to print things, but couldn't we achieve the functionality of printing things with static methods?
+
+Would like to know if there's any benefits of using instances of classes instead of static methods in these cases that I'm missing.
+Thank you!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691679828" expanded>
+
+I seem to have the same issues. Running the command with the -Dfile.encoding=UTF-8 parameter just changes my output from a regular question mark "?" to the same symbol that @kstonekuan sees.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59#issuecomment-695753370" expanded>
+
+> I think in terms of member functions: if a method do not invoke any non-static variables, the method should be static.
+
+I also thought this way, that's why I was a bit confused why the example code used non-static methods even though I don't see how the methods for those classes could invoke non-static variables.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59#issuecomment-695791630" expanded>
+
+Hi Prof,
+Okay! Thank you for the clarifications.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 22. LIM ..BING `@farice9` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Did not fulfill participation requirement on Week 2/3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26" expanded>
+
+Hey! I don't understand why I did not get the participation mark for Week 2/3 despite attending lecture and answered the in-lecture questions (the one hosted on pollev), finished the repl.it questions & ip progress before tutorial.
+
+I would appreciate it if I can understand why this happened so that I can avoid the same mistake in the future. Thanks!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/1#issuecomment-671157439" expanded>
+
+Hi! I noticed that the link to repl.it "cs2113-2020 Aug-Dec" classroom is not attached under https://nus-cs2113-ay2021s1.github.io/website/schedule/week1/admin.html > "Tools - repl.it"
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304572" expanded>
+
+I see, thanks for the reply. I opened up and noticed that my "First Name" on repl.it was my real name instead of GitHub name. I hadn't considered that an issue as my repl.it username was the same as github.
+
+![image](https://user-images.githubusercontent.com/56571027/91640211-602afc80-ea4e-11ea-8ab4-f2157027acb0.png)
+
+I've changed the "First Name" to the GitHub name afterward.
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683306192" expanded>
+
+Thanks @tobiasceg for pointing out and @okkhoy for verifying the issue. Really appreciate it!
+
+I'll keep this issue open, hopefully affected people will notice this.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 23. NEO .. ERN `@neojiaern` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Undo fast foward merge**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50" expanded>
+
+Hi, I was merging branch-Level-6 to master branch but did not check the "Create a new commit even if fast forward is possible". It resulted in something like this:
+![image](https://user-images.githubusercontent.com/37478363/93120936-ad69c800-f6f6-11ea-89be-e2a3dfa6ee6e.png)
+
+Then I did a **git reset --keep branch-Level-6@{1}** but was unable to revert back to the previous state before merging as the branch-Level-6 returned to the 2nd last commit in branch-Level-6 and master stayed at my last commit of branch-Level-6. So I merged master back into branch-Level-6 which went back into the situation shown in the picture above.  I was unable to revert the merge after that.
+
+How do I move master back to origin/master? Would it be safe to checkout origin/master and reset master branch there? Or may I know if there is any other solution to this? 
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: iP: Level-0**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5" expanded>
+
+Hi Prof, regarding Level-0 of the iP, the task states that we should commit after making changes, for this increment are we supposed to push the changes to the fork on github after committing? In addition, are we supposed to keep the DUKE logo that shows at the start?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5#issuecomment-674406397" expanded>
+
+Noted, thank you prof
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50#issuecomment-692439695" expanded>
+
+Thank you! It is working now. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 24. TAN ..ELIA `@AmeliaTYR` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41" expanded>
+
+Hi sorry I pushed branch-Level-5 two days ago (8sep) and it says the ip progress dashboard updated yesterday (9sep) but it still says it doesn't detect the branch-Level-5.  
+
+![image](https://user-images.githubusercontent.com/53657436/92683529-b3ae1c00-f365-11ea-9b4d-7fdcf71ac6f1.png)
+![image](https://user-images.githubusercontent.com/53657436/92683682-1bfcfd80-f366-11ea-850b-a6e6fe4a1118.png)
+
+did I do something wrongly? 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690097107" expanded>
+
+I merged the branch that it was merged to to the master is that ok?
+![image](https://user-images.githubusercontent.com/53657436/92706420-119f2b80-f387-11ea-91f3-e2c1ffb424f7.png)
+Or how do I undo the merging mess I made?
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690138541" expanded>
+
+I reverted it to branch-Level-5 and then merged it to master so now it's like this:
+
+![image](https://user-images.githubusercontent.com/53657436/92716900-043b6e80-f392-11ea-8f05-cbed905ed039.png)
+
+master now has the latest version of the code 
+
+is this acceptable? (also do i need to undo all of the other merge stuff I did or can I just leave it? I'm afraid I might accidentally delete something important?)
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690896569" expanded>
+
+Thank you @okkhoy and @ChanJianHao for your help!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 25. R RA..MANA `@R-Ramana` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: iP: Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21" expanded>
+
+For Level-3 of the iP, can we assume that the input from the user will always be done < int > and no other variations like < int > done/I have done < int >?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-681617750" expanded>
+
+Thanks all
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/74#issuecomment-704051476" expanded>
+
+Or if you don't want to restart the program, I tend to just right-click to create the method, then copy-paste the code!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 26. RIAZ..AMED `@riazaham` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687695109" expanded>
@@ -2015,7 +2082,57 @@ Oh wow it works now.... :/ idk what changed but it works now! Thanks for the hel
 </panel>
 
 
-<panel type="info" header="### 26. MARC..YONG `@Reinbowl` (3 posts) "  collapsed>
+<panel type="info" header="### 27. CHAN.. HAO `@ChanJianHao` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Requesting Permission to use JSON Path**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/78" expanded>
+
+## Library
+
+[Project ':json Path'](https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path/2.4.0)
+
+## Purpose
+
+For parsing our data source .json file into objects. 
+
+We are planning to use this instead of the currently approved gson as gson parser has limitations on how they parse data.
+
+## License
+
+Apache-2.0 License
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Requesting Permission to use AniList**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/43" expanded>
+
+## Library
+
+[AniList GraphQL](https://github.com/AniList/ApiV2-GraphQL-Docs)
+[GraphQL Plugin](https://github.com/jimkyndemeyer/js-graphql-intellij-plugin/)
+
+## Purpose
+
+To obtain information on anime and manga via a credible source. 
+
+## License
+
+Free for non-commercial use. 
+
+Our team has obtained permission from the AniList administrator for making use of this. We will minimize the usage of the library whenever possible to avoid stressing their service.
+
+[AniList Terms of Use](https://anilist.gitbook.io/anilist-apiv2-docs/overview/overview)
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690119344" expanded>
+
+Hello, I believe you could try to revert the merge. Check [this](https://community.atlassian.com/t5/Sourcetree-questions/How-do-I-revert-abort-a-merge-using-source-tree/qaq-p/350099) out for more information.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 28. MARC..YONG `@Reinbowl` (3 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Git push changed commit time on Github**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/58" expanded>
@@ -2036,23 +2153,50 @@ Okay thank you for verifying!
 </panel>
 
 
-<panel type="info" header="### 27. R RA..MANA `@R-Ramana` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 29. LAM ..ROLD `@jerroldlam` (3 posts) "  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: iP: Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21" expanded>
+<panel  header="**1. :fas-info-circle: Gradle Check style flagging constants naming as error**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/77" expanded>
 
-For Level-3 of the iP, can we assume that the input from the user will always be done < int > and no other variations like < int > done/I have done < int >?
+As per coding standards, constants should be in all caps separated by an underscore "_". However, for my team's tp, the checkstyle has flagged all our constants as error with the following 
+'''
+Abbreviation in name 'STARTING_SEMESTER_INDEX' must contain no more than '2' consecutive capital letters.
+'''
+
+Inside the code it looks like this 
+'''
+private final int STARTING_SEMESTER_INDEX = 1;
+'''
+
+I have tried running the script again when I have deleted the private and it is still appearing as an error. Unsure of how to proceed, whether to change the names for constants to fit the check style or ignore the check style warnings.
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-681617750" expanded>
+<panel  header="**2. :fas-info-circle: Request to apache commons lang 3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/42" expanded>
 
-Thanks all
+## Library
+
+[Apache Commons Lang](https://commons.apache.org/proper/commons-lang/)
+
+## Purpose
+
+To allow for the class to be printed as a string.
+
+## License
+
+Apache (http://www.apache.org/licenses/)
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/77#issuecomment-703241326" expanded>
+
+Thank you Zhi You! That solved the problem!
+
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 28. LOW ..LEON `@leonlowzd` (2 posts) "  collapsed>
+<panel type="info" header="### 30. LOW ..LEON `@leonlowzd` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Bye World problem issue**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/9" expanded>
@@ -2073,7 +2217,7 @@ Ohh.. I've reloaded the website, alls good :)
 </panel>
 
 
-<panel type="info" header="### 29. PRAC..ENKA `@prachi2023` (2 posts) "  collapsed>
+<panel type="info" header="### 31. PRAC..ENKA `@prachi2023` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Tick and Cross characters not appearing when doing text ui testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31" expanded>
@@ -2094,7 +2238,7 @@ Sorry I might have missed that. Thanks guys
 </panel>
 
 
-<panel type="info" header="### 30. ANDR.. HUA `@AndreWongZH` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 32. ANDR.. HUA `@AndreWongZH` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683378099" expanded>
@@ -2112,7 +2256,7 @@ It seems like your version 1.0 is listed as a pre-release or maybe the progress 
 </panel>
 
 
-<panel type="info" header="### 31. BRYA.. JUN `@Bryanbeh1998` (2 posts) "  collapsed>
+<panel type="info" header="### 33. BRYA.. JUN `@Bryanbeh1998` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Unable to run gradle file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/71" expanded>
@@ -2135,7 +2279,7 @@ Nevermind. There was a problem with the NUS Wifi
 </panel>
 
 
-<panel type="info" header="### 32. WONG.. WEI `@keke101` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 34. WONG.. WEI `@keke101` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: On magic numbers**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37" expanded>
@@ -2156,39 +2300,7 @@ That's what I thought so too, thanks for the clarification!
 </panel>
 
 
-<panel type="info" header="### 33. CHAN.. HAO `@ChanJianHao` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Requesting Permission to use AniList**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/43" expanded>
-
-## Library
-
-[AniList GraphQL](https://github.com/AniList/ApiV2-GraphQL-Docs)
-[GraphQL Plugin](https://github.com/jimkyndemeyer/js-graphql-intellij-plugin/)
-
-## Purpose
-
-To obtain information on anime and manga via a credible source. 
-
-## License
-
-Free for non-commercial use. 
-
-Our team has obtained permission from the AniList administrator for making use of this. We will minimize the usage of the library whenever possible to avoid stressing their service.
-
-[AniList Terms of Use](https://anilist.gitbook.io/anilist-apiv2-docs/overview/overview)
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690119344" expanded>
-
-Hello, I believe you could try to revert the merge. Check [this](https://community.atlassian.com/t5/Sourcetree-questions/How-do-I-revert-abort-a-merge-using-source-tree/qaq-p/350099) out for more information.
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 34. NGUY..LONG `@longngng` (2 posts) "  collapsed>
+<panel type="info" header="### 35. NGUY..LONG `@longngng` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated testing after dividing classes into packages**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/68" expanded>
@@ -2214,7 +2326,7 @@ I see. Thanks guys!
 </panel>
 
 
-<panel type="info" header="### 35. WU Y..UXIN `@Lezn0` (2 posts) "  collapsed>
+<panel type="info" header="### 36. WU Y..UXIN `@Lezn0` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated runtest issues: cannot find symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30" expanded>
@@ -2232,7 +2344,7 @@ Thank you so much! It works now.
 </panel>
 
 
-<panel type="info" header="### 36. LIU ..FENG `@LIU-YiFeng-1` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 37. LIU ..FENG `@LIU-YiFeng-1` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: [Urgent] JAR file cannot run on Mac due to DateTimeParseException**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/67" expanded>
@@ -2258,7 +2370,7 @@ Thanks! I found the issue, there was a pre-existing txt.file.
 </panel>
 
 
-<panel type="info" header="### 37. LIM ..G LE `@limgl1998` (2 posts) "  collapsed>
+<panel type="info" header="### 38. LIM ..G LE `@limgl1998` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Unable to access JAR file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/55" expanded>
@@ -2276,7 +2388,7 @@ For some reasons, I had to rebase my commit history to merge 2 different branche
 </panel>
 
 
-<panel type="info" header="### 38. ANG ..YANG `@acyang97` (1 posts) "  collapsed>
+<panel type="info" header="### 39. ANG ..YANG `@acyang97` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: IP Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/19" expanded>
@@ -2287,7 +2399,27 @@ Hi prof, for Level-3 of the IP, are we free to use anything we want in the squar
 </panel>
 
 
-<panel type="info" header="### 39. LIAU.. JIE `@kaijiel24` (1 posts) "  collapsed>
+<panel type="info" header="### 40. TAN .. WEI `@TanLeeWei` (1 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Error: Invalid or corrupt jarfile ip.jar**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76" expanded>
+
+
+An automated smoke testing of your iP JAR file found the application crashes with the following error(s) upon launching:
+On Windows, using Java 11, for the ip.jar uploaded on 10-02-2020 (DD-MM-YYYY) at 04:22:13:
+Error: Invalid or corrupt jarfile ip.jar
+On Linux, using Java 11, for the ip.jar uploaded on 10-02-2020 (DD-MM-YYYY) at 04:22:13:
+Error: Invalid or corrupt jarfile ip.jar
+On Mac, using Java 11, for the ip.jar uploaded on 10-02-2020 (DD-MM-YYYY) at 04:22:13:
+Error: Invalid or corrupt jarfile ip.jar
+
+Anyone know what causes this errors? I tried running this jar file on my windows and it works. I asked my friends using MAC and Windows to try running the jar file and all of them said that they can run it.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 41. LIAU.. JIE `@kaijiel24` (1 posts) "  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683693127" expanded>
@@ -2304,7 +2436,7 @@ FC: no differences encountered
 </panel>
 
 
-<panel type="info" header="### 40. ANG .. JUN `@Ang-Cheng-Jun` (1 posts) "  collapsed>
+<panel type="info" header="### 42. ANG .. JUN `@Ang-Cheng-Jun` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Table display on github pages**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/72" expanded>
@@ -2318,7 +2450,7 @@ Anyone encounter this problem in your github pages ?
 </panel>
 
 
-<panel type="info" header="### 41. YEOW..NDON `@brandonywl` (1 posts) "  collapsed>
+<panel type="info" header="### 43. YEOW..NDON `@brandonywl` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: No Invitation to nus-cs2113-AY2021S1**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25" expanded>
@@ -2333,7 +2465,7 @@ I just made the pull request a couple of hours earlier. Is that a factor?
 </panel>
 
 
-<panel type="info" header="### 42. CHAN..JING `@shaojingle` (1 posts) "  collapsed>
+<panel type="info" header="### 44. CHAN..JING `@shaojingle` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: A-Jar .JAR File Error**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56" expanded>
@@ -2355,7 +2487,24 @@ Shao Jing
 </panel>
 
 
-<panel type="info" header="### 43. SIM .. YOU `@f0fz` (1 posts) "  collapsed>
+<panel type="info" header="### 45. TANG.. YOU `@Zhi-You` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/77#issuecomment-703232723" expanded>
+
+This is something new to me too as I thought the code that you have written for your constant is fine. I tried what you did and the check gave me the same warning. However, when I added 'static' before 'final' the check passed. So, I believe that constants should have the 'static' keyword in it and hence the check only passes such cases. 
+Also, if you try to refactor something in your code into a constant, the IDE will automatically declare it with the 'static' key word in it, like so:
+![image](https://user-images.githubusercontent.com/49060098/95012506-b56cb600-066b-11eb-9cf0-fc38bbf5f438.png)
+
+Below are some useful information I found about what static does and I hope this might explain why we need 'static' when declaring our constants. 
+[StackOverflow (see the comment with 104 upvotes)](https://stackoverflow.com/questions/8093230/why-are-java-constants-declared-static#:~:text=If%20a%20constant%20is%20not,of%20the%20constant%20per%20object)
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 46. SIM .. YOU `@f0fz` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Progress Dashboard not detecting A-Jar tag/release**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/49" expanded>
@@ -2368,7 +2517,7 @@ For context, I made the Level-6, Level-7, and A-Collections increments on the sa
 </panel>
 
 
-<panel type="info" header="### 44. JERI..QUAN `@jerichochua` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 47. JERI..QUAN `@jerichochua` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/52#issuecomment-693130427" expanded>
@@ -2380,7 +2529,7 @@ Maybe you can try the following? So instead of using `Duke`, it's `duke.Duke` in
 </panel>
 
 
-<panel type="info" header="### 45. TAN ..BIAS `@tobiasceg` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 48. TAN ..BIAS `@tobiasceg` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304118" expanded>
@@ -2391,29 +2540,7 @@ the prof mentioned that theres a possibility that ur repl account name was set u
 </panel>
 
 
-<panel type="info" header="### 46. LAM ..ROLD `@jerroldlam` (1 posts) "  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Request to apache commons lang 3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/42" expanded>
-
-## Library
-
-[Apache Commons Lang](https://commons.apache.org/proper/commons-lang/)
-
-## Purpose
-
-To allow for the class to be printed as a string.
-
-## License
-
-Apache (http://www.apache.org/licenses/)
-
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 47. MATT..GANI `@matthewgani` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 49. MATT..GANI `@matthewgani` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: IP Level-3 Question**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/17" expanded>
@@ -2427,7 +2554,7 @@ Thank you!
 </panel>
 
 
-<panel type="info" header="### 48. NI Y..ILUN `@lunzard` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 50. NI Y..ILUN `@lunzard` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Individual Project: updates in iP progress dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/6" expanded>
@@ -2439,7 +2566,7 @@ I have made my first commit to the forked project, with a summary "Update Level-
 </panel>
 
 
-<panel type="info" header="### 49. MOOI..CENE `@chuckiex3` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 51. MOOI..CENE `@chuckiex3` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-694308866" expanded>
@@ -2450,7 +2577,7 @@ I have made my first commit to the forked project, with a summary "Update Level-
 </panel>
 
 
-<panel type="info" header="### 50. WANG..SONG `@wgzesg` (1 posts) "  collapsed>
+<panel type="info" header="### 52. WANG..SONG `@wgzesg` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Use a .csv file to store data**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/46" expanded>
